@@ -1,0 +1,21 @@
+{
+  "name": "credit-card-lvl-1",
+  "source": "index.html",
+  "version": "1.0.0",
+  "description": "Credit card level 1 task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Serge Sadowsky",
+  "license": "ISC",
+  "dependencies": {
+    "inputmask": "^5.0.9",
+    "just-validate": "^4.3.0",
+    "redom": "^4.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
