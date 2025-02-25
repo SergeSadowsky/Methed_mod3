@@ -54,6 +54,7 @@ class Form {
 
         setChildren(form, [holderField, numberField, dateField, cvvField, formButton])
 
+        holderField.children[1].setAttribute('maxLength', '23');
         new Inputmask('9999 9999 9999 9999', { 'placeholder': 'x' }).mask(this.cardNumber);
         new Inputmask('99/99', { 'placeholder': '__/__' }).mask(this.cardDate);
         new Inputmask('999', { 'placeholder': '___' }).mask(this.cardCvv);
